@@ -1,7 +1,7 @@
 # Variational Autoencoder for MNIST
 
 This project implements a Variational Autoencoder (VAE) to generate and reconstruct images from the MNIST dataset. The implementation includes data preprocessing, model definition, training, and testing.
-[This blog]() explains it further.
+[This blog](https://varunchitturi.com/notes/601290aa-3dab-47a9-b3dd-24c39467568a/) explains it further.
 
 ## Table of Contents
 
