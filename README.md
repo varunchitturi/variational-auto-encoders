@@ -105,7 +105,9 @@ class VAE(nn.Module):
 
 ## Training
 
-The model is trained using the Evidence Lower Bound (ELBO) loss, which includes a reconstruction term (Binary Cross Entropy Loss) and a regularization term (KL Divergence).
+The model is trained using the Evidence Lower Bound (ELBO) loss, which includes a reconstruction 
+term (Binary Cross Entropy Loss) and a regularization (latent space organization) term (KL 
+Divergence).
 
 ```python
 
@@ -154,7 +156,7 @@ plt.show()
 - [Understanding Diffusion Models: A Unified Perspective](https://arxiv.org/pdf/2208.11970)
 - [Variational Autoencoder](https://arxiv.org/abs/1312.6114)
 - [Understanding Variation Autoencoders (VAEs)](https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73)
-- [Variational autoencoders Blog](https://mbernste.github.io/posts/vae/)
+- [Variational Autoencoders Blog](https://mbernste.github.io/posts/vae/)
 - [Variational-Autoencoder-for-MNIST](https://github.com/williamcfrancis/Variational-Autoencoder-for-MNIST)
 
 This README provides an overview of the VAE project. For detailed implementation and experiments, refer to the project code.
